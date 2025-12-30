@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grand Plan: A Vision for Tomorrow</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0"
+  }
+}
+</script>
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="scroll-container">
+        <header class="hero">
+            <h1 class="glitch-text" data-text="THE GRAND PLAN">THE GRAND PLAN</h1>
+            <p class="subtitle">Architecting the Destiny of a Multi-Planetary Civilization</p>
+            
+            <section id="vision-statement" class="vision-card">
+                <div class="vision-content">
+                    <div id="vision-text" class="placeholder-text">Synthesizing the core directive...</div>
+                    <button id="generate-vision-btn" class="secondary-btn">Manifest Vision</button>
+                </div>
+            </section>
+        </header>
+
+        <main class="container">
+            <div class="grid-layout">
+                <section class="plan-section" id="sustainability">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Sustainable Living"></div>
+                            <h2>Phase 1: Sustainable Living</h2>
+                        </div>
+                        <p>Harnessing renewable energy and circular economies to build an ecologically symbiotic foundation.</p>
+                        <button class="learn-more-btn" aria-controls="sustainability-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="sustainability-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="connectivity">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Global Connectivity"></div>
+                            <h2>Phase 2: Global Connectivity</h2>
+                        </div>
+                        <p>Weaving a digital fabric to erase boundaries and foster unprecedented human collaboration.</p>
+                        <button class="learn-more-btn" aria-controls="connectivity-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="connectivity-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="education">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Lifelong Learning"></div>
+                            <h2>Phase 3: Lifelong Learning</h2>
+                        </div>
+                        <p>AI-driven adaptive education empowering continuous skill acquisition for every individual.</p>
+                        <button class="learn-more-btn" aria-controls="education-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="education-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="health">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Advanced Health"></div>
+                            <h2>Phase 4: Health & Longevity</h2>
+                        </div>
+                        <p>Eradicating disease through gene therapy and regenerative medicine to unlock human potential.</p>
+                        <button class="learn-more-btn" aria-controls="health-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="health-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="space">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Space Colonization"></div>
+                            <h2>Phase 5: Space Colonization</h2>
+                        </div>
+                        <p>Establishing sustainable outposts beyond Earth to become a multi-planetary species.</p>
+                        <button class="learn-more-btn" aria-controls="space-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="space-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="ai">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="AI Symbiosis"></div>
+                            <h2>Phase 6: AI Symbiosis</h2>
+                        </div>
+                        <p>Forging ethical partnerships with AI to amplify human creativity and solve global challenges.</p>
+                        <button class="learn-more-btn" aria-controls="ai-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="ai-details" class="details-container"></div>
+                    </div>
+                </section>
+                
+                <section class="plan-section" id="energy">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Matter Reformation"></div>
+                            <h2>Phase 7: Matter Reformation</h2>
+                        </div>
+                        <p>Mastering atomic matter and fusion energy to usher in an age of universal prosperity.</p>
+                        <button class="learn-more-btn" aria-controls="energy-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="energy-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="culture">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Cultural Renaissance"></div>
+                            <h2>Phase 8: Cultural Renaissance</h2>
+                        </div>
+                        <p>Synthesizing global traditions with AI tools to ignite a new explosion of cosmic creativity.</p>
+                        <button class="learn-more-btn" aria-controls="culture-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="culture-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="consciousness">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Consciousness"></div>
+                            <h2>Phase 9: Conscious Exploration</h2>
+                        </div>
+                        <p>Deciphering the nature of being and expanding sensory experience through immersive reality.</p>
+                        <button class="learn-more-btn" aria-controls="consciousness-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="consciousness-details" class="details-container"></div>
+                    </div>
+                </section>
+
+                <section class="plan-section" id="cosmic">
+                    <div class="card-glow"></div>
+                    <div class="content">
+                        <div class="header-group">
+                            <div class="icon-placeholder" data-phase="Cosmic Purpose"></div>
+                            <h2>Phase 10: Cosmic Integration</h2>
+                        </div>
+                        <p>Aligning humanity with the galactic community and seeking our ultimate purpose.</p>
+                        <button class="learn-more-btn" aria-controls="cosmic-details" aria-expanded="false">Explore Frontier</button>
+                        <div id="cosmic-details" class="details-container"></div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Floating AI Chat Widget -->
+    <div id="ai-chat-widget" class="chat-widget collapsed">
+        <div class="chat-header">
+            <span>Oracle of the Future</span>
+            <button id="chat-toggle">↑</button>
+        </div>
+        <div id="chat-messages" class="chat-messages">
+            <div class="message assistant">How may I assist your understanding of the Grand Plan?</div>
+        </div>
+        <form id="chat-form" class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Ask about our future..." autocomplete="off">
+            <button type="submit" id="send-btn">➤</button>
+        </form>
+    </div>
+
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
